@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="黑">#FF000000</color>
+    <color name="白">#FFFFFFFF</color>
+    <color name="背景">#528585</color>
+    <color name="設定">#FFAAD5</color>
+    <color name="dark_grey">#404040</color>
+    <color name="灰">#FF808080</color>
+    <color name="textColorSafe">#4CAF50</color>  <!-- 绿色, 表示安全 -->
+    <color name="textColorDanger">#F44336</color>
+</resources>

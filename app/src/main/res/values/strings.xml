@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">專題1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ENTER_URL">PLEASE ENTER URL</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+    <string name="color">BACKGROUND COLOR</string>
+    <string name="language">LANGUAGE</string>
+    <string name="size">FONT SIZE</string>
+    <string name="black">BLACK</string>
+    <string name="white">GREY</string>
+    <string name="original">ORIGINAL</string>
+    <string name="english">ENGLISH</string>
+    <string name="chain">CHINESE</string>
+    <string name="large">LARGE</string>
+    <string name="medium">MEDIUM</string>
+    <string name="small">SMALL</string>
+    <string name="START_DETECT">START DETECT</string>
+    <string name="FAVORITES">FAVORITES</string>
+    <string name="PLEASE_ENTER_URL">PLEASE ENTER URL</string>
+    <string name="備註">TITLE</string>
+    <string name="Save">SAVE</string>
+    <string name="Safe">SAFE URL</string>
+    <string name="det_safe">DETECTED AS SAFE URL</string>
+    <string name="dangerous">DANGEROUS URL</string>
+    <string name="det_dangerous">DETECTED AS DANGEROUS URL</string>
+    <string name="safety">SAFETY PROBABILITY :\n</string>
+    <string name="danger">DANGER PROBABILITY :\n</string>
+    <string name="safe_url">SAFE</string>
+    <string name="dangerous_url">DANGEROUS</string>
+    <string name="unknown_status">CAN NOT FIND</string>
+    <string name="delete">DELETE</string>
+    <string name="tosafe">SAFE</string>
+    <string name="todanger">DANGEROUS</string>
+</resources>

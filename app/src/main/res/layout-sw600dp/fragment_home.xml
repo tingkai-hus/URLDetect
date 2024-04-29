@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#528585"
+    tools:context=".FragmentHome">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="47dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="120dp"
+            android:background="@color/背景"
+            android:backgroundTint="@color/背景"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/stat_notify_chat"
+            app:layout_constraintBottom_toBottomOf="@+id/camerabutton1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/camerabutton1"
+            app:layout_constraintVertical_bias="1.0"
+            app:tint="#FFFCFC"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginBottom="42dp"
+            android:background="@color/背景"
+            android:backgroundTint="@color/背景"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_directions"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/camerabutton1"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/camerabutton1"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="224dp"
+            android:backgroundTint="@color/背景"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_camera"
+            app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+            app:layout_constraintStart_toEndOf="@+id/imageButton4"
+            app:layout_constraintTop_toTopOf="@+id/imageButton3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="72dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="109dp"
+            android:background="@color/背景"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/setting_removebg_preview_1"
+            app:layout_constraintBottom_toTopOf="@+id/urleditText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/urleditText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginBottom="937dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/START_DETECT"
+            android:inputType="text"
+            android:minHeight="90dp"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            tools:ignore="LabelFor,MissingConstraints" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="712dp" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="233dp"
+            android:text="@string/START_DETECT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintBaseline_toBaselineOf="@+id/urleditText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/urleditText" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="413dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

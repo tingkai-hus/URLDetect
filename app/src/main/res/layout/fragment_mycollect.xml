@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/背景"
+    tools:context=".FragmentMycollect">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.47690532" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="132dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/favorites"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/FAVORITES"
+        android:textSize="38dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="108dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/PLEASE_ENTER_URL"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds,LabelFor,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#325151"
+        android:text="@string/Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="164dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/備註"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/save4"
+        android:layout_width="267dp"
+        android:layout_height="57dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:id="@+id/save1"
+        android:layout_width="267dp"
+        android:layout_height="57dp"
+        android:autoLink="web"
+        android:ellipsize="end"
+        android:linksClickable="true"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <TextView
+        android:id="@+id/save2"
+        android:layout_width="267dp"
+        android:layout_height="57dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <TextView
+        android:id="@+id/save3"
+        android:layout_width="267dp"
+        android:layout_height="57dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <TextView
+        android:id="@+id/save6"
+        android:layout_width="267dp"
+        android:layout_height="57dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/save7"
+        android:layout_width="267dp"
+        android:layout_height="57dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+
+    <TextView
+        android:id="@+id/save5"
+        android:layout_width="267dp"
+        android:layout_height="57dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:maxLines="2"
+        android:text=""
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <ImageButton
+        android:id="@+id/DeleteButton1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="228dp"
+        android:background="@color/背景"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DeleteButton2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="288dp"
+        android:background="@color/背景"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DeleteButton6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="518dp"
+        android:background="@color/背景"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DeleteButton5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="460dp"
+        android:background="@color/背景"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DeleteButton4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="404dp"
+        android:background="@color/背景"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DeleteButton3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="348dp"
+        android:background="@color/背景"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/DeleteButton7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="573dp"
+        android:background="@color/背景"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

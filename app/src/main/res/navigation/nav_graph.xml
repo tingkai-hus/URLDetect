@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.example.a1.FragmentHome"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentdetail"
+            app:destination="@id/fragmentdetail" />
+        <action
+            android:id="@+id/action_fragmentHome_to_fragmentOutput"
+            app:destination="@id/fragmentOutput" />
+        <action
+            android:id="@+id/action_fragmentHome_to_camera"
+            app:destination="@id/camera" />
+        <action
+            android:id="@+id/action_fragmentHome_to_share_web"
+            app:destination="@id/share_web" />
+        <action
+            android:id="@+id/action_fragmentHome_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentdetail"
+        android:name="com.example.a1.Fragmentdetail"
+        android:label="fragment_fragmentdetail"
+        tools:layout="@layout/fragment_fragmentdetail" >
+        <action
+            android:id="@+id/action_fragmentdetail_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+        <action
+            android:id="@+id/action_fragmentdetail_to_share_web"
+            app:destination="@id/share_web" />
+        <action
+            android:id="@+id/action_fragmentdetail_to_camera"
+            app:destination="@id/camera" />
+        <action
+            android:id="@+id/action_fragmentdetail_to_changeColorFragment"
+            app:destination="@id/changeColorFragment" />
+        <action
+            android:id="@+id/action_fragmentdetail_to_changeSizeFragment"
+            app:destination="@id/changeSizeFragment" />
+        <action
+            android:id="@+id/action_fragmentdetail_to_changeLanguageFragment"
+            app:destination="@id/changeLanguageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentOutput"
+        android:name="com.example.a1.FragmentOutput"
+        android:label="fragment_output"
+        tools:layout="@layout/fragment_output" >
+        <action
+            android:id="@+id/action_fragmentOutput_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/camera"
+        android:name="com.example.a1.Camera"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" >
+        <action
+            android:id="@+id/action_camera_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/share_web"
+        android:name="com.example.a1.share_web"
+        android:label="fragment_share_web"
+        tools:layout="@layout/fragment_share_web" >
+        <action
+            android:id="@+id/action_share_web_to_camera"
+            app:destination="@id/camera" />
+        <action
+            android:id="@+id/action_share_web_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+        <action
+            android:id="@+id/action_share_web_to_fragmentHome2"
+            app:destination="@id/fragmentHome" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.a1.FragmentMycollect"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_mycollect" >
+        <action
+            android:id="@+id/action_blankFragment_to_fragmentHome"
+            app:destination="@id/fragmentHome" />
+        <action
+            android:id="@+id/action_blankFragment_to_camera"
+            app:destination="@id/camera" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeColorFragment"
+        android:name="com.example.a1.ChangeColorFragment"
+        android:label="ChangeColorFragment" >
+        <action
+            android:id="@+id/action_changeColorFragment_to_fragmentdetail"
+            app:destination="@id/fragmentdetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeSizeFragment"
+        android:name="com.example.a1.ChangeSizeFragment"
+        android:label="ChangeSizeFragment" >
+        <action
+            android:id="@+id/action_changeSizeFragment_to_fragmentdetail"
+            app:destination="@id/fragmentdetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeLanguageFragment"
+        android:name="com.example.a1.ChangeLanguageFragment"
+        android:label="ChangeLanguageFragment" >
+        <action
+            android:id="@+id/action_changeLanguageFragment_to_fragmentdetail"
+            app:destination="@id/fragmentdetail" />
+    </fragment>
+</navigation>

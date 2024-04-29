@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">專題1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ENTER_URL">請輸入網址</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="navigation_drawer_open"></string>
+    <string name="navigation_drawer_close"></string>
+    <string name="color">背景顏色</string>
+    <string name="language">語言設定</string>
+    <string name="size">字體大小</string>
+    <string name="black">黑色</string>
+    <string name="white">灰色</string>
+    <string name="original">初始色</string>
+    <string name="large">大</string>
+    <string name="medium">中</string>
+    <string name="small">小</string>
+    <string name="english">英文</string>
+    <string name="chain">中文</string>
+    <string name="START_DETECT">開始檢測</string>
+    <string name="FAVORITES">我的收藏</string>
+    <string name="PLEASE_ENTER_URL">請輸入網址</string>
+    <string name="備註">備註</string>
+    <string name="Save">收藏</string>
+    <string name="Safe">安全的URL</string>
+    <string name="det_safe">檢測出安全的URL</string>
+    <string name="dangerous">危險的URL</string>
+    <string name="det_dangerous">檢測出危險的URL</string>
+    <string name="safety">安全概率 : </string>
+    <string name="danger">危險概率 : </string>
+    <string name="safe_url">安全的URL</string>
+    <string name="dangerous_url">危險的URL</string>
+    <string name="unknown_status">找不到</string>
+    <string name="tosafe">安全</string>
+    <string name="todanger">危險</string>
+</resources>

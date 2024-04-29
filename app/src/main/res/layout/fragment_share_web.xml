@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#528585"
+    tools:context=".share_web">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="413dp" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="260dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="164dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="請輸入網址"
+            android:inputType="text"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.116"
+            tools:ignore="DuplicateIds,LabelFor,MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="47dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="34dp"
+            android:background="@color/背景"
+            android:backgroundTint="@color/背景"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/stat_notify_chat"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:tint="#FFFCFC"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="69dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginBottom="28dp"
+            android:background="@color/背景"
+            android:backgroundTint="@color/背景"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_directions"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton6"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="93dp"
+            android:layout_height="71dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginBottom="28dp"
+            android:backgroundTint="@color/背景"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_camera"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton8"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="152dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="48dp"
+            android:text="分享網址"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.694"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="88dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="44dp"
+            android:scaleType="centerCrop"
+            android:src="?attr/actionModeShareDrawable"
+            app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="164dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="#325151"
+            android:text="分享"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
